@@ -1,8 +1,27 @@
 aid: institut-f-r-produktqualit-t
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/institut-f-r-produktqualit-t.png
 name: Institut für Produktqualität
-description: Institut für Produktqualität is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Institut für Produktqualität (ifp) is an independent analytical testing
+  laboratory based in Berlin, Germany, providing laboratory analysis, testing,
+  and consulting services for food, feed, cosmetics, and pharmaceutical products.
+  It was surfaced as a portfolio company of Battery Ventures and added to the API
+  Evangelist network as a stub for enrichment. As of this enrichment pass the
+  provider publishes no public developer API, developer portal, OpenAPI
+  definition, or machine-readable discovery surface; its public website is served
+  behind bot-protection (HTTP 401) and exposes no /.well-known documents. This
+  profile therefore carries identity and domain-security signal only.
 url: https://raw.githubusercontent.com/api-evangelist/institut-f-r-produktqualit-t/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Laboratory
+- Testing
+- Product Quality
+- Food Safety
+- Analytical Services
+- Germany
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/institut-f-r-produktqualit-t-domain-security.yml
+- type: Website
+  url: https://www.produktqualitaet.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
